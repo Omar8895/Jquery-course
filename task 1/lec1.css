@@ -1,0 +1,123 @@
+body{
+
+    background-image: url("images/overhead-view-to-do-list-notepad-over-blue-background-158998537.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1{
+   
+    color: rgb(15, 15, 70);
+    font-size: 3.5vw;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    
+}
+
+
+.add{
+
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(15, 15, 70);
+    width: 110px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    position: relative;
+    left: 445px;
+    top: 260px;
+    height: 40px;
+    
+} 
+
+.textBox {
+
+    border-radius: 10px;
+    color: rgb(53, 53, 165);
+    width:450PX ;
+    height: 50px; 
+    position: relative;
+    left: 455px;
+    top:260px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.25vw;
+    display: none;
+
+}
+
+
+
+li{
+
+    background-color: #ffffff;
+    list-style: none;
+    cursor: text;
+    padding: 10px;
+    margin-top:25px;
+    border: 1px solid rgb(179, 176, 176);
+    border-radius: 10px;
+    width: 345px;
+    position: relative;
+    left: 500px;
+    top : 250px ;
+    height: 30px;
+    color:  rgb(53, 53, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    
+}
+
+
+.done{
+
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(15, 15, 70);
+    width: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    position: absolute;
+    left: 365px;
+    top:0px;
+    height: 30px;
+    
+
+}
+
+
+.delete{
+
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(15, 15, 70);
+    width: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    position: absolute;
+    left: 425px;
+    top: 0px;
+    height: 30px;
+
+}
+
+
